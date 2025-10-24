@@ -1,0 +1,51 @@
+# RL-PyramidKD Dependencies
+
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+
+# Reinforcement Learning
+gym>=0.26.0
+stable-baselines3>=2.0.0
+
+# Computer Vision
+opencv-python>=4.8.0
+pillow>=10.0.0
+albumentations>=1.3.0
+
+# Object Detection & Segmentation
+pycocotools>=2.0.6
+detectron2 @ git+https://github.com/facebookresearch/detectron2.git
+
+# Metrics & Evaluation
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tensorboard>=2.13.0
+wandb>=0.15.0
+
+# Configuration
+pyyaml>=6.0
+omegaconf>=2.3.0
+hydra-core>=1.3.0
+
+# Utilities
+tqdm>=4.66.0
+rich>=13.0.0
+colorlog>=6.7.0
+
+# Development
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Optional: Mixed Precision Training
+apex @ git+https://github.com/NVIDIA/apex.git
+
+# Optional: Distributed Training
+accelerate>=0.21.0
